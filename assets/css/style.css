@@ -1,0 +1,36 @@
+html, body  {
+    height: 100%;
+}
+#form-wrapper {
+    display: table;
+    height: 100%;
+}
+#form-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+#myForm {
+    width: 360px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f7f7f7;
+}
+#submitButton {
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: none;
+}
+#resultContainer {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    display: block;
+    padding: 6px 0px;
+    line-height: 20px;
+}
+.form-control.error {
+    border: 1px solid red;
+}
